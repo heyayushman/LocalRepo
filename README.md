@@ -29,23 +29,23 @@ cd - change directory, go inside to another directory : cd folder name
 #### git add . : used to add all files
 
 ## commit : it is the record of changes made in repository
-git commit -m "some meaningful message"
+### git commit -m "some meaningful message"
 
 ### Example:
 1. Create a new folder : git add <-new file name->
 2. check : git status
 3. <-new file added-> (staged)
-4. git commit -m "new folder created"
+### git commit -m "new folder created"
 
 ### push : used to upload local repo content to remote repo
-git push origin main
+### git push origin main
 
 
 ## Create new folder in local system and initialize the git into it, so that it can be viewed in github
 
 ### Init command : Used to initialize git to a new folder, created in local computer
 
-git init
+### git init
 
 ### Let's create a new folder and initialize git into this
 
@@ -63,7 +63,9 @@ PS C:\LocalSystem\GitRepo > git init
 * Again, in the terminal run > git remote add origin <-link->
 * make sure your're on the correct directory by running <- git remote -v ->
 * check in which branch we are in > git branch > it will show *master
-* change it to *main > git branch -M main
+
+* change it to *main > 
+### git branch -M main
 * Branch name will be changed
 
 ### Now, we can push code into github
